@@ -12,6 +12,10 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+
+  create() {
+    console.log('here')
   }
 }
 </script>
